@@ -8,8 +8,6 @@
 [![X](https://srv-cdn.himpfen.io/badges/twitter/twitter-flat.svg)](https://x.com/ListsAwesome) 
 [![Facebook](https://srv-cdn.himpfen.io/badges/facebook-pages/facebook-pages-flat.svg)](https://www.facebook.com/awesomelists)
 
-📌 This repository is archived with Zenodo and can be cited using the DOI above.
-
 > A curated list of resources for agricultural crop monitoring, remote sensing, disease detection, and yield estimation platforms.
 
 Effective crop monitoring and automated disease detection are critical for optimizing agricultural yield, reducing resource waste, and ensuring global food security through early intervention. This list is intended for precision agriculture researchers, agronomists, software developers, and remote sensing specialists.
