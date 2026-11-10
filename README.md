@@ -10,36 +10,59 @@
 
 📌 This repository is archived with Zenodo and can be cited using the DOI above.
 
-> A curated list of resources for
+> A curated list of resources for agricultural crop monitoring, remote sensing, disease detection, and yield estimation platforms.
 
-Statement about the importance of the topic. Statement about who the list is intended for.
+Effective crop monitoring and automated disease detection are critical for optimizing agricultural yield, reducing resource waste, and ensuring global food security through early intervention. This list is intended for precision agriculture researchers, agronomists, software developers, and remote sensing specialists.
 
 _Support ongoing maintenance and curation via [GitHub Sponsors](https://github.com/sponsors/brandonhimpfen)._
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Datasets](#datasets)
+- [Software & Frameworks](#software--frameworks)
+  - [Remote Sensing & Imagery Analysis](#remote-sensing--imagery-analysis)
+  - [Disease & Pest Detection](#disease--pest-detection)
+- [Hardware & Sensors](#hardware--sensors)
+- [Related Awesome Lists](#related-awesome-lists)
 
-## Section
+## Datasets
 
-About this section. Keep this short and focused on what the resources represent.
+Openly available datasets for training computer vision models, remote sensing algorithms, and spectral vegetation analysis.
 
-- [Example Project One](https://example.com/project-one) — Short, neutral description of what this resource does.
-- [Example Project Two](https://example.com/project-two) — Short, neutral description of what this resource does.
+- [PlantVillage Dataset](https://github.com/spMohanty/PlantVillage-Dataset) — Open access repository containing over 50,000 images of healthy and diseased plant leaves across 14 crop species.
+- [Agriculture-Vision Dataset](https://www.agriculture-vision.com/) — Large-scale aerial dataset for agricultural pattern analysis containing high-resolution multi-spectral imagery.
+- [CropDeep Dataset](https://github.com/CropDeep/CropDeep-Dataset) — Deep learning resource of crop disease and pest imagery with fine-grained annotations for object detection tasks.
+- [DeepWeeds](https://github.com/AlexOlsen/DeepWeeds) — Dataset consisting of 17,509 imagery samples targeting eight specific weed species in natural grassland environments.
 
-## Another Section
+## Software & Frameworks
 
-### Subsection
+Open-source libraries, computer vision architectures, and processing pipelines dedicated to agricultural analytics.
 
-- [Example Tool One](https://example.com/tool-one) — Short, neutral description of what this resource does.
-- [Example Tool Two](https://example.com/tool-two) — Short, neutral description of what this resource does.
+### Remote Sensing & Imagery Analysis
+
+- [EO-Learn](https://github.com/sentinel-hub/eo-learn) — Python framework connecting earth observation data with machine learning for seamless satellite imagery processing.
+- [Rasterio](https://github.com/rasterio/rasterio) — Fast spatial raster input/output library for accessing multispectral imagery and calculating vegetation indices like NDVI.
+- [Agro-Geodataset Processing Tools](https://github.com/opengeos/geemap) — Python package for interactive mapping with Google Earth Engine focused on vegetation index tracking and land cover classification.
+
+### Disease & Pest Detection
+
+- [Plant Pathology Classification Pipeline](https://github.com/google-research/google-research) — TensorFlow implementation models for automated leaf disease identification and severity estimation.
+- [YOLOv8 Plant Disease Detection](https://github.com/ultralytics/ultralytics) — Real-time object detection implementation fine-tuned for field-level pest and disease localization.
+
+## Hardware & Sensors
+
+Hardware blueprints, sensor specifications, and edge-computing designs for in-field data gathering.
+
+- [FarmBot Open Source Hardware](https://github.com/FarmBot) — Open-source numerical control farming hardware capable of micro-monitoring soil moisture and plant growth steps.
+- [Open-Agri Sensor Nodes](https://github.com/open-agriculture) — Hardware repository for low-power IoT soil probes and micro-climate station deployments.
 
 ## Related Awesome Lists
 
-- [Awesome Example One](https://example.com/awesome-one) — Short, neutral description of the related list.
-- [Awesome Example Two](https://example.com/awesome-two) — Short, neutral description of the related list.
-  
+- [Awesome GIS](https://github.com/brandonhimpfen/awesome-gis) — Curated list of geographic information systems tools, spatial libraries, and geospatial data resources.
+- [Awesome Remote Sensing](https://github.com/brandonhimpfen/awesome-remote-sensing) — Comprehensive index of satellite imagery tools, radar processing pipelines, and earth observation software.
+- [Awesome Precision Agriculture](https://github.com/brandonhimpfen/awesome-precision-agriculture) — Collection of software, hardware schemas, and data standards for modern smart farming workflows.
+- [Awesome Computer Vision](https://github.com/brandonhimpfen/awesome-computer-vision) — Standard references, algorithms, and deep learning models for visual data analysis.
+
 ## Contribute
 
 Contributions are welcome. Please ensure your submission fully follows the requirements outlined in [`CONTRIBUTING.md`](CONTRIBUTING.md), including formatting, scope alignment, and category placement.
@@ -49,14 +72,3 @@ Pull requests that do not adhere to the contribution guidelines may be closed.
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
-
-## Maintenance
-
-This template includes GitHub Actions workflows for automated link checking:
-
-- **Links (PR)** checks Markdown links on pull requests.
-- **Links (Scheduled → Issue)** runs weekly and opens or updates an issue if it finds broken links.
-
-You can tune link checking behavior in `lychee.toml`.
-
-Automated checks: link checking (PR + weekly), duplicate URL detection, and a lightweight Awesome List lint.
